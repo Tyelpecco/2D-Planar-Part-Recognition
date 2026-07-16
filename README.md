@@ -1,0 +1,2 @@
+# 2D-Planar-Part-Recognition
+通过MergeMertern函数对不同曝光度的图片进行融合预处理，然后通过sklearn进行模型训练，获取高效的零件识别方法
