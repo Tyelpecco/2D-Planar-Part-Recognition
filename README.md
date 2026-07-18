@@ -51,16 +51,20 @@ pip install opencv-python numpy scikit-image scikit-learn joblib
 
 3. **预处理**：将拍摄好的图片按照目录结构放置，然后运行
 ``` Python
-pre_make.py
+python pre_make.py
 ```
 
 4. **模型训练**：运行
 ```
-train_model.py
+python train_model.py
 ```
 ，生成workpiece_svm_model.pkl模型文件
 
-5. **最终输入**：将待测零件的图片放入根目录中，并在main.py中修改文件名（目前还没有实现参数传递）。运行main.py，程序会输出识别结果和置信度。
+5. **最终输入**：将待测零件的图片放入根目录中，然后运行
+```
+python main.py [图片路径]
+```
+，程序会输出识别结果和置信度。
 
 ---
 

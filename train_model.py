@@ -70,7 +70,7 @@ def load_dataset(data_dir):
 # 3. 主训练流程
 # =====================================================================
 if __name__ == "__main__":
-    DATA_DIR = "C:/Users/Tyelpecco/Desktop/model/train_data"  # 你的数据存放目录
+    DATA_DIR = "./train/trained_data"  # 你的数据存放目录
     
     if not os.path.exists(DATA_DIR):
         print(f"【错误】找不到 {DATA_DIR} 文件夹，请先创建并放入分类数据！")
